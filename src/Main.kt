@@ -11,13 +11,14 @@
     //}
 //}
 
+
+                            //*Potential Improvements
+
+
 fun main(){                             //The main() function starts execution,
     val animal: Animal = Dog()         //where upcasting assigns a 'Dog' instance to an 'Animal' variable,
     animal.makeSound()                //and due to 'polymorphism', calling 'makeSound()' executes the overridden 'Dog' version.
 }
-
-
-                     //*Potential Improvements
 
 
 open class Animal {                              //The 'Animal' class is declared open, allowing it to be inherited.
